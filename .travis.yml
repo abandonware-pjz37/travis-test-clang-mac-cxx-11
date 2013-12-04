@@ -4,4 +4,4 @@ language:
 script:
     - clang++ --version
     - ls -la /usr/bin/c++
-    - /usr/bin/c++ -v test.cpp
+    - /usr/bin/c++ -v -stdlib=libstdc++ test.cpp
