@@ -1,4 +1,8 @@
-travis-test-clang-mac-cxx-11
-============================
+* `libstdcxx`: link clang with libstdcxx (**failed**: [![Build Status][branch_libstdcxx]][repo])
+* `libcxx`: link clang with libcxx (**passed**: [![Build Status][branch_libcxx]][repo])
+* `master`: default (link with libstdcxx, **failed**: [![Build Status][branch_master]][repo])
 
- travis-ci.org test clang c++11 support on mac
+[branch_libstdcxx]: https://travis-ci.org/travis-ci-tester/travis-test-clang-mac-cxx-11.png?branch=libstdcxx
+[branch_libcxx]: https://travis-ci.org/travis-ci-tester/travis-test-clang-mac-cxx-11.png?branch=libcxx
+[branch_master]: https://travis-ci.org/travis-ci-tester/travis-test-clang-mac-cxx-11.png?branch=master
+[repo]: https://travis-ci.org/travis-ci-tester/travis-test-clang-mac-cxx-11
