@@ -3,5 +3,4 @@ language:
 
 script:
     - clang++ --version
-    - ls -la /usr/bin/c++
-    - /usr/bin/c++ -v test.cpp
+    - clang++ -std=c++11 test.cpp
