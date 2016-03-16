@@ -1,6 +1,4 @@
-#include <utility>
+#include <type_traits>
 
 int main() {
-  int x(3);
-  int y = std::move(x);
 }
