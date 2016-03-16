@@ -1,7 +1,6 @@
 language:
-    - objective-c
+  - objective-c
 
 script:
-    - clang++ --version
-    - ls -la /usr/bin/c++
-    - /usr/bin/c++ -v -stdlib=libc++ test.cpp
+  - clang++ --version
+  - clang++ -v -std=c++11 -stdlib=libc++ test.cpp
